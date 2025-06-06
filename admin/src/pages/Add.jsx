@@ -27,7 +27,7 @@ const Add = ({ token }) => {
       fromData.append("price", price);
       fromData.append("category", category);
       fromData.append("subCategory", subCategory);
-      fromData.append("bestseller", bestSeller);
+      fromData.append("bestSeller", bestSeller);
       fromData.append("sizes", JSON.stringify(sizes));
 
       image1 && fromData.append("image1", image1);
